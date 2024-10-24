@@ -16,7 +16,9 @@ let package = Package(
     ],
     dependencies: [
         // 여기에 외부 의존성이 있으면 추가합니다.
-//        .package(url: "https://github.com/xuxuezhe/SoomirangSDK.git", from: "1.0.0")
+//        .package(url: "https://github.com/xuxuezhe/soomirang-library.git", exact: "1.0.0")
+//        .package(url: "https://github.com/xuxuezhe/soomirang-library.git", from: "1.0.0")
+//        .package(url: "https://github.com/xuxuezhe/soomirang-library.git", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
 //        // SDK 코드가 포함된 타겟
