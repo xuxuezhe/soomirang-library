@@ -36,9 +36,9 @@ let package = Package(
 //        ),
         .binaryTarget(
             name: "MyFramework",
-            path: "./MyFramework.xcframework"
-//            url: "https://github.com/xuxuezhe/soomirang-library/releases/download/v1.0.1/MyFramework.xcframework.zip",
-//            checksum: "199ec0cf399f91843b89c8c1532b61188355e31f451235c19193f678d6fbb3d9"
+//            path: "./MyFramework.xcframework"
+            url: "https://github.com/xuxuezhe/soomirang-library/releases/download/v1.0.3/MyFramework.xcframework.zip",
+            checksum: "199ec0cf399f91843b89c8c1532b61188355e31f451235c19193f678d6fbb3d9"
         ),
     ]
 )
