@@ -12,7 +12,7 @@ let package = Package(
         // SDK를 라이브러리로 정의
         .library(
             name: "SoomirangSDK",
-            targets: ["MyFramework"]),
+            targets: ["MySDK"]),
     ],
     dependencies: [
         // 여기에 외부 의존성이 있으면 추가합니다.
@@ -35,10 +35,10 @@ let package = Package(
 //            dependencies: []·
 //        ),
         .binaryTarget(
-            name: "MyFramework",
+            name: "MySDK",
 //            path: "./MyFramework.xcframework"
-            url: "https://github.com/xuxuezhe/soomirang-library/releases/download/v1.0.3/MyFramework.xcframework.zip",
-            checksum: "199ec0cf399f91843b89c8c1532b61188355e31f451235c19193f678d6fbb3d9"
+            url: "https://github.com/xuxuezhe/soomirang-library/releases/download/v1.0.5/MySDK.xcframework.zip",
+            checksum: "4c3a6362230fb0e4ebcfb9c0d55c365e0a37aab70522b1823e257872351fc414"
         ),
     ]
 )
